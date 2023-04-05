@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.navbar {
+    display: flex;
+}
+
+.item {
+    width: 163px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 31.79px;
+    padding-top: 12px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-right: 1px solid var(--border-color);
+    color: var(--text-color);
+}
+
+.item:first-child {
+    background-color: var(--button);
+    color: var(--button-text-color);
+}
+.name {
+    width: 625px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 31.79px;
+    padding-top: 12px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    color: var(--text-color);
+}
